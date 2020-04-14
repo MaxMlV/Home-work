@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HomeWork" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aAoh9PXmWa1e1rlNEXhSxPr5br" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.NumberProgression">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.max.malphil.Main" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.max.malphil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methods.numberProgression.NumberProgression" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="methods.numberProgression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NumberProgression" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="" />
+      <created>1586187875877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586187875877</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="524" y="155" key="#xdebugger.evaluate" timestamp="1586797695594">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="524" y="155" key="#xdebugger.evaluate/0.40.1536.824@0.40.1536.824" timestamp="1586797695594" />
+    <state width="1493" height="292" key="GridCell.Tab.0.bottom" timestamp="1586871491651">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1586871491651" />
+    <state width="1493" height="292" key="GridCell.Tab.0.center" timestamp="1586871491651">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1586871491651" />
+    <state width="1493" height="292" key="GridCell.Tab.0.left" timestamp="1586871491651">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1586871491651" />
+    <state width="1493" height="292" key="GridCell.Tab.0.right" timestamp="1586871491651">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="292" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1586871491651" />
+    <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1586871262671">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1586871262671" />
+    <state width="1493" height="424" key="GridCell.Tab.1.center" timestamp="1586871262671">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1586871262671" />
+    <state width="1493" height="424" key="GridCell.Tab.1.left" timestamp="1586871262671">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1586871262671" />
+    <state width="1493" height="424" key="GridCell.Tab.1.right" timestamp="1586871262671">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1586871262671" />
+    <state x="0" y="40" key="SettingsEditor" timestamp="1586620974835">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="0" y="40" key="SettingsEditor/0.40.1536.824@0.40.1536.824" timestamp="1586620974835" />
+    <state x="465" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1586695993274">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="465" y="276" key="com.intellij.ide.util.TipDialog/0.40.1536.824@0.40.1536.824" timestamp="1586695993274" />
+    <state x="498" y="346" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586708833281">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="498" y="346" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.40.1536.824@0.40.1536.824" timestamp="1586708833281" />
+    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup" timestamp="1586621006858">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1586621006858" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/methods/numberProgression/NumberProgression.java</url>
+          <line>12</line>
+          <properties class="methods.numberProgression.NumberProgression" method="plusProgression">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/methods/numberProgression/NumberProgression.java</url>
+          <line>35</line>
+          <properties class="methods.numberProgression.NumberProgression" method="whichProgression">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/methods/numberProgression/NumberProgression.java</url>
+          <line>45</line>
+          <properties class="methods.numberProgression.NumberProgression" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="array[i]" language="JAVA" />
+        <watch expression="array[array.length-i-1]" language="JAVA" />
+        <watch expression="array[array.length-i-1]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

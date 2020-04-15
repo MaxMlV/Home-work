@@ -11,33 +11,35 @@ public class NumberProgression {
     }
 
     public static int calculatePlusProgression(int[] num) {
+        int indexProgression = num[1] - num[0];
         for (int i = 0; i < num.length - 1; i++) {
-            if (num[i] + 2 == num[i + 1] && i == num.length - 2) {
-                return num[i + 1] + 2;
-            } else if (num[i] + 3 == num[i + 1] && i == num.length - 2) {
-                return num[i + 1] + 3;
+            if (num[i] + indexProgression == num[i + 1] && i == num.length - 2) {
+                return num[i + 1] + indexProgression;
             }
         }
         return 0;
     }
 
     public static int calculateMultiplyProgression(int[] num) {
+        int indexProgression = num[1] / num[0];
         for (int i = 0; i < num.length - 1; i++) {
-            if (num[i] * 2 == num[i + 1] && i == num.length - 2) {
-                return num[i + 1] * 2;
-            } else if (num[i] * 3 == num[i + 1] && i == num.length - 2) {
-                return num[i + 1] * 3;
+            if (num[i] * indexProgression == num[i + 1] && i == num.length - 2) {
+                return num[i + 1] * indexProgression;
             }
         }
         return 0;
     }
 
     public static int calculatePowerProgression(int[] num) {
+        int indexProgression = 1;
+        int isPower = num[1];
+        while (isPower != 2) {
+            isPower = isPower / 2;
+            indexProgression++;
+        }
         for (int i = 1; i <= num.length; i++) {
-            if ((i * i) == num[i - 1] && i == num.length - 1) {
-                return (int) Math.pow(i + 1, 2);
-            } else if ((i * i * i) == num[i - 1] && i == num.length - 1) {
-                return (int) Math.pow(i + 1, 3);
+            if ((int) Math.pow(i, indexProgression) == num[i - 1] && i == num.length) {
+                return (int) Math.pow(i+1, indexProgression);
             }
         }
         return 0;

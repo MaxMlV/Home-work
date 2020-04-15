@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 public class NumberCombinations {
 
-    public static void calculateCombinations(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length - 1; j++) {
-                System.out.println(Arrays.toString(array));
-                int temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
+    public static void calculateCombinations(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length-1; j++) {
+                System.out.println(Arrays.toString(arr));
+                int tmp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = tmp;
             }
         }
     }

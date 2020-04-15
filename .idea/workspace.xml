@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utilPackages/binaryNumberConverter/BinaryNumberConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilPackages/lastMonth/LastMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilPackages/myToString/MyToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/methods/maxPalindrome/MaxPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/methods/maxPalindrome/MaxPalindrome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWork/methods/numberCombinations/NumberCombinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/methods/numberCombinations/NumberCombinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/methods/numberProgression/NumberProgression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/methods/numberProgression/NumberProgression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/methods/numberProgression/NumberProgression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methods/numberProgression/NumberProgression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methods/numberCombinations/NumberCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methods/numberCombinations/NumberCombinations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +44,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.NumberProgression">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.max.malphil.Main" />
+  <component name="RunManager" selected="Application.PiNumber">
+    <configuration name="BinaryNumberConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilPackages.binaryNumberConverter.BinaryNumberConverter" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.max.malphil.*" />
+          <option name="PATTERN" value="utilPackages.binaryNumberConverter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methods.maxPalindrome.MaxPalindrome" />
+    <configuration name="JavaBorn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataAndCalendar.javaBorn.JavaBorn" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methods.maxPalindrome.*" />
+          <option name="PATTERN" value="dataAndCalendar.javaBorn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methods.numberCombinations.NumberCombinations" />
+    <configuration name="LastMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilPackages.lastMonth.LastMonth" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methods.numberCombinations.*" />
+          <option name="PATTERN" value="utilPackages.lastMonth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +84,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberProgression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methods.numberProgression.NumberProgression" />
+    <configuration name="MyToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilPackages.myToString.MyToString" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methods.numberProgression.*" />
+          <option name="PATTERN" value="utilPackages.myToString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PiNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utilPackages.piNumber.PiNumber" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utilPackages.piNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,10 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberProgression" />
-        <item itemvalue="Application.MaxPalindrome" />
-        <item itemvalue="Application.NumberCombinations" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PiNumber" />
+        <item itemvalue="Application.BinaryNumberConverter" />
+        <item itemvalue="Application.MyToString" />
+        <item itemvalue="Application.LastMonth" />
+        <item itemvalue="Application.JavaBorn" />
       </list>
     </recent_temporary>
   </component>
@@ -121,22 +138,26 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="524" y="155" key="#xdebugger.evaluate/0.40.1536.824@0.40.1536.824" timestamp="1586797695594" />
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1586942983298">
+    <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1586948656491">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1586942983298" />
-    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1586942983298">
+    <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1586948656491" />
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1586969373141">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1586942983298" />
-    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1586942983298">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1586969373141" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1586969373141">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1586942983298" />
-    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1586942983298">
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1586969373141" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1586969373141">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1586942983298" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1586969373141" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1586969373141">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1586969373141" />
     <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1586942465761">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -165,6 +186,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="498" y="346" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.40.1536.824@0.40.1536.824" timestamp="1586708833281" />
+    <state x="209" y="73" key="new project wizard" timestamp="1586948668869">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.40.1536.824@0.40.1536.824" timestamp="1586948668869" />
     <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup" timestamp="1586621006858">
       <screen x="0" y="40" width="1536" height="824" />
     </state>

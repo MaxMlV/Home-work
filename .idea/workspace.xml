@@ -4,7 +4,6 @@
     <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/filesLecture/folders/Folders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesLecture/folders/Folders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/filesLecture/saveArray/SaveArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesLecture/saveArray/SaveArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.SaveArray">
+  <component name="RunManager" selected="Application.Folders">
     <configuration name="BinaryNumberConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utilPackages.binaryNumberConverter.BinaryNumberConverter" />
       <module name="HomeWork" />
@@ -54,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilPackages.myToString.MyToString" />
+    <configuration name="Folders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="filesLecture.folders.Folders" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilPackages.myToString.*" />
+          <option name="PATTERN" value="filesLecture.folders.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Folders" />
         <item itemvalue="Application.SaveArray" />
         <item itemvalue="Application.TextRedactor" />
         <item itemvalue="Application.PiNumber" />
         <item itemvalue="Application.BinaryNumberConverter" />
-        <item itemvalue="Application.MyToString" />
       </list>
     </recent_temporary>
   </component>
@@ -138,22 +137,22 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1586948656491" />
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1587042110354">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1587043082065">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587042110354" />
-    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1587042110354">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587043082065" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1587043082065">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1587042110354" />
-    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1587042110354">
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1587043082065" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1587043082065">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1587042110354" />
-    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1587042110354">
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1587043082065" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1587043082065">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1587042110354" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1587043082065" />
     <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1586942465761">
       <screen x="0" y="40" width="1536" height="824" />
     </state>

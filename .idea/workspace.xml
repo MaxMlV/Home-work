@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
+    <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="Phone is done.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/oopIntro/cat/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/oopIntro/cat/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/oopIntro/network/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/oopIntro/network/Network.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/oopIntro/network/Phone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/oopIntro/triangle/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/oopIntro/triangle/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopIntro/cat/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopIntro/cat/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopIntro/network/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopIntro/network/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopIntro/network/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopIntro/triangle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oopIntro/triangle/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/filesLecture/folders/Folders.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/filesLecture/folders/Folders.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/filesLecture/folders/Folders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/filesLecture/folders/Folders.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,22 +53,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../date-time-discord-bot" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Folders">
-    <configuration name="BinaryNumberConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilPackages.binaryNumberConverter.BinaryNumberConverter" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="utilPackages.binaryNumberConverter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Folders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="filesLecture.folders.Folders" />
       <module name="HomeWork" />
@@ -66,12 +70,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PiNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utilPackages.piNumber.PiNumber" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oopIntro.triangle.Main" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utilPackages.piNumber.*" />
+          <option name="PATTERN" value="oopIntro.triangle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oopIntro.network.Main" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oopIntro.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oopIntro.cat.Main" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oopIntro.cat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextRedactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="filesLecture.textRedactor.TextRedactor" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="filesLecture.textRedactor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Folders" />
         <item itemvalue="Application.SaveArray" />
-        <item itemvalue="Application.TextRedactor" />
-        <item itemvalue="Application.PiNumber" />
-        <item itemvalue="Application.BinaryNumberConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -128,47 +145,59 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Phone is done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Phone is done." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1587216333583">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1587216333583" />
     <state x="524" y="155" key="#xdebugger.evaluate" timestamp="1586797695594">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="524" y="155" key="#xdebugger.evaluate/0.40.1536.824@0.40.1536.824" timestamp="1586797695594" />
-    <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1586948656491">
+    <state x="424" y="47" key="CommitChangelistDialog2" timestamp="1587303082315">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1586948656491" />
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1587043082065">
+    <state x="424" y="47" key="CommitChangelistDialog2/0.40.1536.824@0.40.1536.824" timestamp="1587303082315" />
+    <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1587226400065">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587043082065" />
-    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1587043082065">
+    <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1587226400065" />
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1587303082325">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1587043082065" />
-    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1587043082065">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587303082325" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1587303082325">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1587043082065" />
-    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1587043082065">
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1587303082325" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1587303082325">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1587043082065" />
-    <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1586942465761">
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1587303082325" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1587303082325">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1586942465761" />
-    <state width="1493" height="424" key="GridCell.Tab.1.center" timestamp="1586942465761">
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1587303082325" />
+    <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1587301852207">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1586942465761" />
-    <state width="1493" height="424" key="GridCell.Tab.1.left" timestamp="1586942465761">
+    <state width="1493" height="424" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587301852207" />
+    <state width="1493" height="424" key="GridCell.Tab.1.center" timestamp="1587301852207">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1586942465761" />
-    <state width="1493" height="424" key="GridCell.Tab.1.right" timestamp="1586942465761">
+    <state width="1493" height="424" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1587301852207" />
+    <state width="1493" height="424" key="GridCell.Tab.1.left" timestamp="1587301852207">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1586942465761" />
+    <state width="1493" height="424" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1587301852207" />
+    <state width="1493" height="424" key="GridCell.Tab.1.right" timestamp="1587301852207">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="424" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1587301852207" />
     <state x="0" y="40" key="SettingsEditor" timestamp="1586620974835">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -189,6 +218,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="209" y="73" key="new project wizard/0.40.1536.824@0.40.1536.824" timestamp="1586948668869" />
+    <state x="425" y="207" key="run.anything.popup" timestamp="1587216633999">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="425" y="207" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1587216633999" />
     <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup" timestamp="1586621006858">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -204,6 +237,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/oopIntro/network/Network.java</url>
+          <line>34</line>
+          <properties class="oopIntro.network.Network" method="call">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

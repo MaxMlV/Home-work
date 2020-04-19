@@ -16,5 +16,8 @@ public class Folders {
     public static void main(String[] args) {
         File folder = new File("src/filesLecture/folders");
         foldersOutput(folder);
+        long l = 3;
+        double d = 3;
+        System.out.println((l+d));
     }
 }

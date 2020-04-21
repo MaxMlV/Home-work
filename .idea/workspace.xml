@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +47,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../date-time-discord-bot" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Folders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="filesLecture.folders.Folders" />
       <module name="HomeWork" />
@@ -80,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Main" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oopIntro.cat.Main" />
       <module name="HomeWork" />
@@ -93,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaveArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="filesLecture.saveArray.SaveArray" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="filesLecture.saveArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Folders" />
-        <item itemvalue="Application.SaveArray" />
       </list>
     </recent_temporary>
   </component>
@@ -142,10 +149,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Phone is done." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1587216333583">
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1587476639800">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1587216333583" />
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1587476639800" />
+    <state x="493" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587474224365">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="493" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.40.1536.824@0.40.1536.824" timestamp="1587474224365" />
     <state x="524" y="155" key="#xdebugger.evaluate" timestamp="1586797695594">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -158,38 +169,38 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1587226400065" />
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1587303082325">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1587483298344">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587303082325" />
-    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1587303082325">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587483298344" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1587483298344">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1587303082325" />
-    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1587303082325">
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1587483298344" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1587483298343">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1587303082325" />
-    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1587303082325">
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1587483298343" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1587483298344">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1587303082325" />
-    <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1587301852207">
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1587483298344" />
+    <state width="1493" height="424" key="GridCell.Tab.1.bottom" timestamp="1587318034207">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587301852207" />
-    <state width="1493" height="424" key="GridCell.Tab.1.center" timestamp="1587301852207">
+    <state width="1493" height="424" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1587318034207" />
+    <state width="1493" height="424" key="GridCell.Tab.1.center" timestamp="1587318034207">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1587301852207" />
-    <state width="1493" height="424" key="GridCell.Tab.1.left" timestamp="1587301852207">
+    <state width="1493" height="424" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1587318034207" />
+    <state width="1493" height="424" key="GridCell.Tab.1.left" timestamp="1587318034207">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1587301852207" />
-    <state width="1493" height="424" key="GridCell.Tab.1.right" timestamp="1587301852207">
+    <state width="1493" height="424" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1587318034207" />
+    <state width="1493" height="424" key="GridCell.Tab.1.right" timestamp="1587318034207">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="424" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1587301852207" />
+    <state width="1493" height="424" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1587318034207" />
     <state x="0" y="40" key="SettingsEditor" timestamp="1586620974835">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -218,10 +229,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="425" y="207" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1587216633999" />
-    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup" timestamp="1586621006858">
+    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup" timestamp="1587475243542">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1586621006858" />
+    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1587475243542" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

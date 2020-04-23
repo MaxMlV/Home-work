@@ -13,16 +13,23 @@ public class Main {
         Student studentNine = new Student("Kimora", "Shea", 21, 7);
         Student studentTen = new Student("Jairo", "Maxwell", 21, 6);
         Group group = new Group();
-        group.insert(studentOne, 1);
-        group.insert(studentTwo, 2);
-        group.insert(studentThree,3);
-        group.insert(studentFour,4);
-        group.insert(studentFive,5);
-        group.insert(studentSix,6);
-        group.insert(studentSeven, 7);
-        group.insert(studentEight,8);
-        group.insert(studentNine,9);
-        group.insert(studentTen,10);
+        group.insert(studentOne);
+        group.insert(studentTwo);
+        group.insert(studentThree);
+        group.insert(studentFour);
+        group.insert(studentFive);
+        group.insert(studentSeven);
+        group.insert(studentEight);
+        group.insert(studentNine);
+        group.insert(studentTen);
+
+        System.out.println(group.toString());
+
+        System.out.println(group.findStudent("Maxwell"));
+        System.out.println();
+
+        group.delete(studentFour);
+        
         System.out.println(group.toString());
     }
 }

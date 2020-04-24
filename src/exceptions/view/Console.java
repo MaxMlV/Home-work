@@ -2,6 +2,7 @@ package exceptions.view;
 
 import exceptions.controller.Group;
 import exceptions.model.Student;
+import org.w3c.dom.ls.LSOutput;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -29,7 +30,7 @@ public class Console {
         System.out.println();
         System.out.println("<0> Exit.");
 
-        int choice = readInt(0, 5, "\t Invalid option!");
+        int choice = readInt(0, 6, "\t Invalid option!");
         return choice;
     }
 
@@ -153,7 +154,7 @@ public class Console {
     }
 
     private void studentSearch() {
-        group.findStudent(enterLast());
+        System.out.println(group.findStudent(enterLast()));
     }
 
     private void sortMenu() {

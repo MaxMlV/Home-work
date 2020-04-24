@@ -68,7 +68,7 @@ public class Group implements RecruitmentOffice {
         for (int i = 0; i < students.length; i++) {
             if (students[i] != null) {
                 if (students[i].getLastName().equals(lastName)) {
-                    return "Student found ---> " + students[i].getInfo();
+                    return "  Found  ==>  " + students[i].getInfo();
                 }
             }
         }

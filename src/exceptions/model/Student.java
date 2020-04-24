@@ -1,11 +1,11 @@
-package exceptions;
+package exceptions.model;
 
 public class Student extends Human {
     private int grade;
 
-    public Student(String firstName, String lastName, int age, int grade) {
-        super(firstName, lastName, age);
-        this.grade = grade;
+    public Student(String firstName, String lastName, int age, String gender, int gradePointAverage) {
+        super(firstName, lastName, age, gender);
+        this.grade = gradePointAverage;
     }
 
     public Student() {
@@ -21,6 +21,6 @@ public class Student extends Human {
 
     @Override
     public String getInfo() {
-        return super.getInfo() + " grade: " + getGrade();
+        return super.getInfo() + "    grade: " + getGrade();
     }
 }

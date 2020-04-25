@@ -18,20 +18,27 @@ public class Group implements RecruitmentOffice {
         this.students = students;
     }
 
-    private void checkIfGroupFull() throws GroupOutOfBoundsException {
-        if (students[students.length - 1] != null) {
-            throw new GroupOutOfBoundsException("Group is full.");
+    private int checkGroupFullness() {
+        int count = 0;
+        for (Student student : students) {
+            if (student == null) {
+                count++;
+            }
         }
+        return count;
     }
 
     public void insert(Student student) {
         try {
-            checkIfGroupFull();
-            for (int i = 0; i < students.length; i++) {
-                if (students[i] == null) {
-                    students[i] = student;
-                    break;
+            if (checkGroupFullness() > 0) {
+                for (int i = 0; i < students.length; i++) {
+                    if (students[i] == null) {
+                        students[i] = student;
+                        break;
+                    }
                 }
+            } else {
+                throw new GroupOutOfBoundsException("Group is full.");
             }
         } catch (GroupOutOfBoundsException e) {
             System.out.println(e.getMessage());

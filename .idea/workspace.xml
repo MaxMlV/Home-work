@@ -3,16 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Console.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Group$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Group$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Group$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/GroupOutOfBoundsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/exceptions/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/controller/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/controller/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/controller/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/controller/GroupOutOfBoundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/model/GroupOutOfBoundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/controller/RecruitmentOffice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/model/RecruitmentOffice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exceptions/view/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/view/Console.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,10 +153,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Phone is done." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1587731185713">
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1587742607905">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1587731185713" />
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1587742607905" />
+    <state x="570" y="283" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1587805248650">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="570" y="283" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.40.1536.824@0.40.1536.824" timestamp="1587805248650" />
     <state x="493" y="40" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587474224365">
       <screen x="0" y="40" width="1536" height="824" />
     </state>

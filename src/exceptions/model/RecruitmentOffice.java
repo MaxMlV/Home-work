@@ -1,6 +1,4 @@
-package exceptions.controller;
-
-import exceptions.model.Student;
+package exceptions.model;
 
 public interface RecruitmentOffice {
     public boolean isMilitaryAgeMan(Student student);

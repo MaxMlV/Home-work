@@ -1,8 +1,7 @@
 package exceptions.view;
 
-import exceptions.controller.Group;
+import exceptions.model.Group;
 import exceptions.model.Student;
-import org.w3c.dom.ls.LSOutput;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -65,7 +64,7 @@ public class Console {
         }
     }
 
-    private String readName() {
+    private String readString() {
         String name;
         while (true) {
             try {
@@ -100,15 +99,15 @@ public class Console {
 
     private void addNewStudent() {
         System.out.println("\t Enter first name of student.");
-        String firstName = readName();
+        String firstName = readString();
         System.out.println("\t Enter last name of student.");
-        String lastName = readName();
+        String lastName = readString();
         System.out.println("\t Enter age of student.");
         int age = readInt(1, Integer.MAX_VALUE, "\tInvalid value! Enter positive <int> number.");
         String gender = genderChoice();
         int gradePointAverage = calculateGrade();
         Student student = new Student(firstName, lastName, age, gender, gradePointAverage);
-        group.insert(student, this.group.getStudents());
+        group.insert(student);
         System.out.println("\t Student have been added to group!");
     }
 
@@ -145,7 +144,7 @@ public class Console {
 
     private String enterLast() {
         System.out.println("\t Enter last name of student.");
-        String lastName = readName();
+        String lastName = readString();
         return lastName;
     }
 
@@ -184,15 +183,14 @@ public class Console {
     }
 
     private void showMilitaryAgeStudents() {
-        group.militaryAgeArray();
+        Student[] militaryAgeStudents = new Student[10];
         StringBuilder stringBuilder = new StringBuilder();
-        for (Student student : group.getMilitaryAgeStudents()) {
+        for (Student student : militaryAgeStudents) {
             if (student != null) {
                 stringBuilder.append("\t" + student.getInfo() + "\n");
             }
         }
         System.out.println("\t\t\t\tLIST OF MILITARY AGE STUDENTS");
         System.out.println(stringBuilder.toString());
-        group.cleanMilitaryArray();
     }
 }

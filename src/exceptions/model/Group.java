@@ -1,19 +1,10 @@
-package exceptions.controller;
-
-import exceptions.model.Student;
+package exceptions.model;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
 public class Group implements RecruitmentOffice {
     private Student[] students = new Student[10];
-    private Student[] militaryAgeStudents = new Student[10];
-
-    public Group(Student[] students, Student[] militaryAgeStudents) {
-        super();
-        this.students = students;
-        this.militaryAgeStudents = militaryAgeStudents;
-    }
 
     public Group() {
         super();
@@ -27,21 +18,13 @@ public class Group implements RecruitmentOffice {
         this.students = students;
     }
 
-    public Student[] getMilitaryAgeStudents() {
-        return militaryAgeStudents;
-    }
-
-    public void setMilitaryAgeStudents(Student[] militaryAgeStudents) {
-        this.militaryAgeStudents = militaryAgeStudents;
-    }
-
     private void checkIfGroupFull() throws GroupOutOfBoundsException {
         if (students[students.length - 1] != null) {
             throw new GroupOutOfBoundsException("Group is full.");
         }
     }
 
-    public void insert(Student student, Student[] students) {
+    public void insert(Student student) {
         try {
             checkIfGroupFull();
             for (int i = 0; i < students.length; i++) {
@@ -141,22 +124,6 @@ public class Group implements RecruitmentOffice {
             return true;
         }
         return false;
-    }
-
-    public void militaryAgeArray() {
-        for (Student student : students) {
-            if (student != null && isMilitaryAgeMan(student)) {
-                insert(student, militaryAgeStudents);
-            }
-        }
-    }
-
-    public void cleanMilitaryArray() {
-        for (int i = 0; i < militaryAgeStudents.length; i++) {
-            if (militaryAgeStudents[i] != null) {
-                militaryAgeStudents[i] = null;
-            }
-        }
     }
 
     @Override

@@ -1,4 +1,4 @@
-package exceptions.controller;
+package exceptions.model;
 
 public class GroupOutOfBoundsException extends Exception {
 

@@ -1,6 +1,6 @@
 package exceptions;
 
-import exceptions.controller.GroupOutOfBoundsException;
+import exceptions.model.GroupOutOfBoundsException;
 import exceptions.view.Console;
 
 public class Main {

@@ -183,9 +183,8 @@ public class Console {
     }
 
     private void showMilitaryAgeStudents() {
-        Student[] militaryAgeStudents = new Student[10];
         StringBuilder stringBuilder = new StringBuilder();
-        for (Student student : militaryAgeStudents) {
+        for (Student student : group.MilitaryAgeMan()) {
             if (student != null) {
                 stringBuilder.append("\t" + student.getInfo() + "\n");
             }

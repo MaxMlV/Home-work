@@ -47,9 +47,12 @@ public class Group implements RecruitmentOffice {
 
     public void delete(String lastName) {
         for (int i = 0; i < students.length; i++) {
-            if (lastName.equals(students[i].getLastName())) {
+            if (students[i] != null && lastName.equals(students[i].getLastName())) {
                 students[i] = null;
+                System.out.println("\t Student have been removed.");
                 break;
+            } else if (i == students.length-1) {
+                System.out.println("\t Student doesn't exist.");
             }
         }
     }
@@ -126,11 +129,14 @@ public class Group implements RecruitmentOffice {
     }
 
     @Override
-    public boolean isMilitaryAgeMan(Student student) {
-        if (student.getGender().equals("Male") && student.getAge() > 18) {
-            return true;
+    public Student[] MilitaryAgeMan() {
+        Student[] military = new Student[10];
+        for (int i = 0; i < students.length; i++) {
+            if (students[i] != null && students[i].getGender().equals("Male") && students[i].getAge() >= 18) {
+                military[i] = students[i];
+            }
         }
-        return false;
+        return military;
     }
 
     @Override

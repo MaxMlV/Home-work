@@ -184,7 +184,7 @@ public class Console {
 
     private void showMilitaryAgeStudents() {
         StringBuilder stringBuilder = new StringBuilder();
-        for (Student student : group.MilitaryAgeMan()) {
+        for (Student student : group.militaryAgeMan()) {
             if (student != null) {
                 stringBuilder.append("\t" + student.getInfo() + "\n");
             }

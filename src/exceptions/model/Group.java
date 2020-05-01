@@ -144,8 +144,8 @@ public class Group implements RecruitmentOffice {
         try (PrintWriter writer = new PrintWriter(file)) {
             for (Student student : students) {
                 if (student != null) {
-                    writer.println(student.getFirstName() + " " + student.getLastName() + " " + student.getAge() + " "
-                    + student.getGender() + " " + student.getGrade());
+                    writer.println(student.getFirstName() + "," + student.getLastName() + "," + student.getAge() + ","
+                    + student.getGender() + "," + student.getGrade());
                 }
             }
         } catch (IOException e) {
@@ -153,11 +153,11 @@ public class Group implements RecruitmentOffice {
         }
     }
 
-    public void readSaved(File file) {
+    public String readSaved(File file) {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line = "";
             while ((line = reader.readLine()) != null) {
-                String[] studentStr = line.split(" ");
+                String[] studentStr = line.split(",");
                 Student student = new Student();
                 student.setFirstName(studentStr[0]);
                 student.setLastName(studentStr[1]);
@@ -166,9 +166,11 @@ public class Group implements RecruitmentOffice {
                 student.setGrade(Integer.parseInt(studentStr[4]));
                 insert(student);
             }
-        } catch (IOException e) {
+        } catch (IOException | NumberFormatException e) {
             e.printStackTrace();
+            return "\t Invalid data!";
         }
+        return "\t Saved data has loaded.";
     }
 
     @Override

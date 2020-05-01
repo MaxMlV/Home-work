@@ -204,7 +204,7 @@ public class Console {
 
     private String saveGroup() {
         try {
-            File file = new File("savedGroup.txt");
+            File file = new File("savedGroup.csv");
             if (!(file.exists())) {
                 file.createNewFile();
             }
@@ -216,11 +216,10 @@ public class Console {
     }
 
     private String loadSave() {
-        File file = new File("savedGroup.txt");
+        File file = new File("savedGroup.csv");
         if (!(file.exists())) {
             return "\t Nothing to load!";
         }
-        group.readSaved(file);
-        return "\t Saved data has loaded.";
+        return group.readSaved(file);
     }
 }

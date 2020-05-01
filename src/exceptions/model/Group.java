@@ -129,7 +129,7 @@ public class Group implements RecruitmentOffice {
     }
 
     @Override
-    public Student[] MilitaryAgeMan() {
+    public Student[] militaryAgeMan() {
         Student[] military = new Student[10];
         for (int i = 0; i < students.length; i++) {
             if (students[i] != null && students[i].getGender().equals("Male") && students[i].getAge() >= 18) {

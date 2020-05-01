@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/imputOutputStream/FileOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/imputOutputStream/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/imputOutputStream/copyFormatFiles/FileOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/imputOutputStream/copyFormatFiles/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/imputOutputStream/copyFormatFiles/FileOperation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/imputOutputStream/copyFormatFiles/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imputOutputStream/duplicateTextFile/FileOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imputOutputStream/duplicateTextFile/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeWork/META-INF/HomeWork.kotlin_module" beforeDir="false" />
     </list>

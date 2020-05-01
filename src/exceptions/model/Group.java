@@ -158,13 +158,15 @@ public class Group implements RecruitmentOffice {
             String line = "";
             while ((line = reader.readLine()) != null) {
                 String[] studentStr = line.split(",");
-                Student student = new Student();
-                student.setFirstName(studentStr[0]);
-                student.setLastName(studentStr[1]);
-                student.setAge(Integer.parseInt(studentStr[2]));
-                student.setGender(studentStr[3]);
-                student.setGrade(Integer.parseInt(studentStr[4]));
-                insert(student);
+                if (studentStr.length == 5) {
+                    Student student = new Student();
+                    student.setFirstName(studentStr[0]);
+                    student.setLastName(studentStr[1]);
+                    student.setAge(Integer.parseInt(studentStr[2]));
+                    student.setGender(studentStr[3]);
+                    student.setGrade(Integer.parseInt(studentStr[4]));
+                    insert(student);
+                }
             }
         } catch (IOException | NumberFormatException e) {
             e.printStackTrace();

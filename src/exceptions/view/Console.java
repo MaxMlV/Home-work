@@ -3,6 +3,7 @@ package exceptions.view;
 import exceptions.model.Group;
 import exceptions.model.Student;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -26,10 +27,12 @@ public class Console {
         System.out.println("<4> Sort group list.");
         System.out.println("<5> Show list of military age students.");
         System.out.println("<6> Search student.");
+        System.out.println("<7> Save group.");
+        System.out.println("<8> Load group.");
         System.out.println();
         System.out.println("<0> Exit.");
 
-        int choice = readInt(0, 6, "\t Invalid option!");
+        int choice = readInt(0, 8, "\t Invalid option!");
         return choice;
     }
 
@@ -57,6 +60,12 @@ public class Console {
                     break;
                 case 6:
                     studentSearch();
+                    break;
+                case 7:
+                    System.out.println(saveGroup());
+                    break;
+                case 8:
+                    System.out.println(loadSave());
                     break;
                 default:
                     throw new AssertionError();
@@ -191,5 +200,27 @@ public class Console {
         }
         System.out.println("\t\t\t\tLIST OF MILITARY AGE STUDENTS");
         System.out.println(stringBuilder.toString());
+    }
+
+    private String saveGroup() {
+        try {
+            File file = new File("savedGroup.txt");
+            if (!(file.exists())) {
+                file.createNewFile();
+            }
+            group.writeStudentsInto(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "\t Saved!";
+    }
+
+    private String loadSave() {
+        File file = new File("savedGroup.txt");
+        if (!(file.exists())) {
+            return "\t Nothing to load!";
+        }
+        group.readSaved(file);
+        return "\t Saved data has loaded.";
     }
 }

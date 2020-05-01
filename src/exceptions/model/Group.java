@@ -1,5 +1,6 @@
 package exceptions.model;
 
+import java.io.*;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -51,7 +52,7 @@ public class Group implements RecruitmentOffice {
                 students[i] = null;
                 System.out.println("\t Student have been removed.");
                 break;
-            } else if (i == students.length-1) {
+            } else if (i == students.length - 1) {
                 System.out.println("\t Student doesn't exist.");
             }
         }
@@ -137,6 +138,37 @@ public class Group implements RecruitmentOffice {
             }
         }
         return military;
+    }
+
+    public void writeStudentsInto(File file) {
+        try (PrintWriter writer = new PrintWriter(file)) {
+            for (Student student : students) {
+                if (student != null) {
+                    writer.println(student.getFirstName() + " " + student.getLastName() + " " + student.getAge() + " "
+                    + student.getGender() + " " + student.getGrade());
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void readSaved(File file) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            String line = "";
+            while ((line = reader.readLine()) != null) {
+                String[] studentStr = line.split(" ");
+                Student student = new Student();
+                student.setFirstName(studentStr[0]);
+                student.setLastName(studentStr[1]);
+                student.setAge(Integer.parseInt(studentStr[2]));
+                student.setGender(studentStr[3]);
+                student.setGrade(Integer.parseInt(studentStr[4]));
+                insert(student);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

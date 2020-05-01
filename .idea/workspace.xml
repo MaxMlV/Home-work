@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/imputOutputStream/FileOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/imputOutputStream/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/imputOutputStream/copyFormatFiles/FileOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/HomeWork/imputOutputStream/copyFormatFiles/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imputOutputStream/copyFormatFiles/FileOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/imputOutputStream/copyFormatFiles/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imputOutputStream/duplicateTextFile/FileOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/imputOutputStream/duplicateTextFile/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/META-INF/HomeWork.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +49,13 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="ArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ArraySum" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imputOutputStream.copyFormatFiles.Main" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.model.*" />
+          <option name="PATTERN" value="imputOutputStream.copyFormatFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="imputOutputStream.copyFormatFiles.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="imputOutputStream.duplicateTextFile.Main" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="imputOutputStream.copyFormatFiles.*" />
+          <option name="PATTERN" value="imputOutputStream.duplicateTextFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ArraySum" />
       </list>
     </recent_temporary>
   </component>
@@ -173,10 +168,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="223" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1536.824@0.40.1536.824" timestamp="1588248281614" />
-    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1588276817862">
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1588324449100">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1588276817862" />
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1588324449100" />
     <state x="570" y="283" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1587805248650">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -197,22 +192,22 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1587226400065" />
-    <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1588275309303">
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1588328004639">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1588275309303" />
-    <state width="1493" height="279" key="GridCell.Tab.0.center" timestamp="1588275309303">
+    <state width="1493" height="279" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1588328004639" />
+    <state width="1493" height="279" key="GridCell.Tab.0.center" timestamp="1588328004639">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1588275309303" />
-    <state width="1493" height="279" key="GridCell.Tab.0.left" timestamp="1588275309303">
+    <state width="1493" height="279" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1588328004639" />
+    <state width="1493" height="279" key="GridCell.Tab.0.left" timestamp="1588328004639">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1588275309303" />
-    <state width="1493" height="279" key="GridCell.Tab.0.right" timestamp="1588275309303">
+    <state width="1493" height="279" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1588328004639" />
+    <state width="1493" height="279" key="GridCell.Tab.0.right" timestamp="1588328004639">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="279" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1588275309303" />
+    <state width="1493" height="279" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1588328004639" />
     <state width="1493" height="220" key="GridCell.Tab.1.bottom" timestamp="1588273821137">
       <screen x="0" y="40" width="1536" height="824" />
     </state>

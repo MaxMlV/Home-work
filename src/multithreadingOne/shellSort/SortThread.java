@@ -1,4 +1,4 @@
-package multithreads.shellSort;
+package multithreadingOne.shellSort;
 
 public class SortThread implements Runnable {
     private int[] arr;

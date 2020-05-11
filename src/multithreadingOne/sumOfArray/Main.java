@@ -1,4 +1,4 @@
-package multithreads.sumOfArray;
+package multithreadingOne.sumOfArray;
 
 public class Main {
     public static void main(String[] args) {

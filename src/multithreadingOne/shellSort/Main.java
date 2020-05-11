@@ -1,4 +1,4 @@
-package multithreads.shellSort;
+package multithreadingOne.shellSort;
 
 public class Main {
 

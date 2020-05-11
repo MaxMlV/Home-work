@@ -1,4 +1,4 @@
-package multithreads.factorialThreadArray;
+package multithreadingOne.factorialThreadArray;
 
 import java.math.BigInteger;
 

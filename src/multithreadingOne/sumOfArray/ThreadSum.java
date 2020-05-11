@@ -1,4 +1,4 @@
-package multithreads.sumOfArray;
+package multithreadingOne.sumOfArray;
 
 public class ThreadSum implements Runnable {
     private int[] numbers;

@@ -1,4 +1,4 @@
-package multithreads.folderMultiCopy;
+package multithreadingOne.folderMultiCopy;
 
 import java.io.File;
 import java.io.FileInputStream;

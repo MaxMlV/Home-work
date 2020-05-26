@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/blockFileCopy/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/blockFileCopy/InputThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/blockFileCopy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/blockFileCopy/OutputThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/findFile/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/findFile/SearchThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/lecturePractice/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/lecturePractice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/lecturePractice/PullPushThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/port/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/port/Port.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/synchronizedThreads/port/ShipThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/multithreads/factorialThreadArray/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/multithreads/factorialThreadArray/ThreadFactorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/multithreads/folderMultiCopy/CopyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/multithreads/folderMultiCopy/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/multithreads/shellSort/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/multithreads/shellSort/SortThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/multithreads/sumOfArray/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/multithreads/sumOfArray/ThreadSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/synchronizedThreads/port/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/synchronizedThreads/port/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +48,7 @@
       <recent name="exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="debugLecture.Main" />
       <module name="HomeWork" />
@@ -174,10 +155,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
@@ -240,38 +221,38 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1587226400065" />
-    <state width="1493" height="403" key="GridCell.Tab.0.bottom" timestamp="1589997532327">
+    <state width="1493" height="403" key="GridCell.Tab.0.bottom" timestamp="1590501036701">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="403" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1589997532327" />
-    <state width="1493" height="403" key="GridCell.Tab.0.center" timestamp="1589997532327">
+    <state width="1493" height="403" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1590501036701" />
+    <state width="1493" height="403" key="GridCell.Tab.0.center" timestamp="1590501036700">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="403" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1589997532327" />
-    <state width="1493" height="403" key="GridCell.Tab.0.left" timestamp="1589997532327">
+    <state width="1493" height="403" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1590501036700" />
+    <state width="1493" height="403" key="GridCell.Tab.0.left" timestamp="1590501036700">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="403" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1589997532327" />
-    <state width="1493" height="403" key="GridCell.Tab.0.right" timestamp="1589997532327">
+    <state width="1493" height="403" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1590501036700" />
+    <state width="1493" height="403" key="GridCell.Tab.0.right" timestamp="1590501036701">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="403" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1589997532327" />
-    <state width="1493" height="296" key="GridCell.Tab.1.bottom" timestamp="1589997381388">
+    <state width="1493" height="403" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1590501036701" />
+    <state width="1493" height="296" key="GridCell.Tab.1.bottom" timestamp="1590049630582">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1589997381388" />
-    <state width="1493" height="296" key="GridCell.Tab.1.center" timestamp="1589997381388">
+    <state width="1493" height="296" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1590049630582" />
+    <state width="1493" height="296" key="GridCell.Tab.1.center" timestamp="1590049630581">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1589997381388" />
-    <state width="1493" height="296" key="GridCell.Tab.1.left" timestamp="1589997381388">
+    <state width="1493" height="296" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1590049630581" />
+    <state width="1493" height="296" key="GridCell.Tab.1.left" timestamp="1590049630581">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1589997381388" />
-    <state width="1493" height="296" key="GridCell.Tab.1.right" timestamp="1589997381388">
+    <state width="1493" height="296" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1590049630581" />
+    <state width="1493" height="296" key="GridCell.Tab.1.right" timestamp="1590049630581">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1589997381388" />
+    <state width="1493" height="296" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1590049630581" />
     <state x="62" y="40" key="SettingsEditor" timestamp="1588248483545">
       <screen x="0" y="40" width="1536" height="824" />
     </state>

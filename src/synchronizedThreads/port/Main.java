@@ -5,14 +5,12 @@ import java.util.concurrent.Executors;
 
 public class Main {
     public static void main(String[] args) {
-        Port port = new Port();
+        int shipsCount = 7;
 
-        int shipsCount = 3;
-
-        ExecutorService executor = Executors.newFixedThreadPool(shipsCount);
+        ExecutorService executor = Executors.newFixedThreadPool(2);
 
         for (int i = 1; i <= shipsCount; i++) {
-            executor.execute(new ShipThread("Ship #" + i, 10, port));
+            executor.execute(new ShipThread("Ship #" + i, 10));
         }
 
         executor.shutdown();

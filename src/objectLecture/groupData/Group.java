@@ -13,7 +13,7 @@ public class Group implements Serializable {
         this.students = students;
     }
 
-    private int checkGroupFullness() {
+    public int checkGroupFullness() {
         int count = 0;
         for (Student student : students) {
             if (student == null) {

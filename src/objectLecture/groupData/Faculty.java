@@ -14,6 +14,11 @@ public class Faculty implements Serializable {
     }
 
     public void addToGroup(int groupNumber, Student student) {
-        getGroups()[groupNumber].addStudent(student);
+        try {
+            groups[groupNumber].addStudent(student);
+        } catch (NullPointerException e) {
+            groups[groupNumber] = new Group();
+            addToGroup(groupNumber, student);
+        }
     }
 }

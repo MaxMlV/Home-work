@@ -18,7 +18,7 @@ public class Stack {
     public int checkForBlackness(Class<?> classToCheck, BlackList blackList) {
         Object[] blackObjects = blackList.getObjects();
         for (int i = 0; i < blackObjects.length; i++) {
-            if (blackObjects[i].getClass().equals(classToCheck) && blackObjects[i] != null) {
+            if (blackObjects[i] != null && blackObjects[i].getClass().equals(classToCheck)) {
                 return 1;
             }
         }
@@ -32,28 +32,31 @@ public class Stack {
         for (int i = 0; i < objects.length; i++) {
             if (objects[i] == null) {
                 objects[i] = classToAdd;
-                return classToAdd.toString() + "has been added!";
+                return classToAdd.toString() + " has been added!";
             }
         }
+        return "null";
     }
 
-    public void deleteObject(Class<?> classToDelete) {
-        int i = 0;
-        for (i = objects.length-i-1; i < objects.length; i++) {
-            if (objects[i].getClass().equals(classToDelete) && objects[i+1] == null) {
-                System.out.println(classToDelete.toString() + "has been deleted!");
+    public String deleteObject() {
+        for (int i = 0; i < objects.length; i++) {
+            if (objects[i+1] == null) {
+                Object temp = objects[i];
                 objects[i] = null;
-                break;
-            } else {
-                System.out.println("Object is not on top of stack or doesn't exist.");
+                return temp.getClass() + " <-- has been deleted.";
+            } else if (i == objects.length-1 && objects[i] != null) {
+                Object temp = objects[i];
+                objects[i] = null;
+                return temp.hashCode() + " <-- has been deleted.";
             }
         }
+        return "Nothing to delete";
     }
 
     public String topOfStack() {
         for (int i = 0; i < objects.length; i++) {
-            if (objects[i] != null && objects[i+1] == null || i == objects.length-1) {
-                return objects[i].toString() + "<- this object sit on top!";
+            if (objects[i] != null && objects[i + 1] == null || i == objects.length - 1) {
+                return objects[i].toString() + " <- this object sit on top!";
             }
         }
         return "Stack is empty.";

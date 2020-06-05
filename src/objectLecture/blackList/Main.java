@@ -1,7 +1,5 @@
 package objectLecture.blackList;
 
-import java.io.File;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -12,11 +10,26 @@ public class Main {
         Circle circle = new Circle(10);
         Triangle triangle = new Triangle(1,1,2);
 
-        System.out.println(stack.addObject(square.getClass(), blackList));
-        System.out.println(stack.addObject(circle.getClass(), blackList));
+        stack.addObject(square, blackList);
+        stack.addObject(circle, blackList);
 
-        System.out.println(stack.topOfStack());
+        for (Object obj :
+                stack.getObjects()) {
+            System.out.print(obj + ",  ");
+        }
 
-        System.out.println(stack.deleteObject());
+        System.out.println();
+
+        System.out.println(stack.topOfStack() + " <-- on top!");
+
+        stack.deleteObject();
+
+        System.out.println(stack.topOfStack() + " <-- on top!");
+
+        blackList.add(triangle);
+
+        stack.addObject(triangle, blackList);
+
+        System.out.println(stack.topOfStack() + " <-- on top!");
     }
 }

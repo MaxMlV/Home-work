@@ -15,18 +15,18 @@ public class BlackList {
         this.objects = objects;
     }
 
-    public void add(Class<?> classToBlackList) {
+    public void add(Object objToBlackList) {
         for (int i = 0; i < objects.length; i++) {
             if (objects[i] == null) {
-                objects[i] = classToBlackList;
+                objects[i] = objToBlackList;
                 break;
             }
         }
     }
 
-    public  void delete(Class<?> classToDeleteFromBlackList) {
+    public  void delete(Object objToDeleteFromBlackList) {
         for (int i = 0; i < objects.length; i++) {
-            if (objects[i].getClass().equals(classToDeleteFromBlackList) && objects[i] != null) {
+            if (objects[i].equals(objToDeleteFromBlackList) && objects[i] != null) {
                 objects[i] = null;
             }
         }

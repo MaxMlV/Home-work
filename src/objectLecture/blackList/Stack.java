@@ -53,7 +53,7 @@ public class Stack {
                 return objects[i];
             }
         }
-        return -1;
+        return null;
     }
 
     @Override

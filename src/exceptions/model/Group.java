@@ -1,43 +1,29 @@
 package exceptions.model;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class Group implements RecruitmentOffice {
-    private Student[] students = new Student[10];
+    private List<Student> students;
 
     public Group() {
         super();
+        this.students = new ArrayList<>();
     }
 
-    public Student[] getStudents() {
+    public List<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(Student[] students) {
+    public void setStudents(List<Student> students) {
         this.students = students;
     }
 
-    private int checkGroupFullness() {
-        int count = 0;
-        for (Student student : students) {
-            if (student == null) {
-                count++;
-            }
-        }
-        return count;
-    }
 
     public void insert(Student student) {
         try {
-            if (checkGroupFullness() > 0) {
-                for (int i = 0; i < students.length; i++) {
-                    if (students[i] == null) {
-                        students[i] = student;
-                        break;
-                    }
-                }
+            if (count() < 10) {
+                this.students.add(student);
             } else {
                 throw new GroupOutOfBoundsException("Group is full.");
             }
@@ -47,94 +33,44 @@ public class Group implements RecruitmentOffice {
     }
 
     public void delete(String lastName) {
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] != null && lastName.equals(students[i].getLastName())) {
-                students[i] = null;
-                System.out.println("\t Student have been removed.");
-                break;
-            } else if (i == students.length - 1) {
-                System.out.println("\t Student doesn't exist.");
+        for (Student s : this.students) {
+            if (s.getLastName().equals(lastName)) {
+                this.students.remove(s);
             }
         }
     }
 
-    public String findStudent(String lastName) {
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] != null) {
-                if (students[i].getLastName().equals(lastName)) {
-                    return "  Found  ==>  " + students[i].getInfo();
-                }
+    public Student findStudent(String lastName) {
+        for (Student s : this.students) {
+            if (s.getLastName().equals(lastName)) {
+                return s;
             }
         }
-        return "Student not found.";
+        return null;
     }
 
-    Comparator<Student> byLastName = new Comparator<Student>() {
-        @Override
-        public int compare(Student o1, Student o2) {
-            if (o1 == null && o2 == null) {
-                return 0;
-            }
-            if (o1 == null) {
-                return 1;
-            }
-            if (o2 == null) {
-                return -1;
-            }
-            return o1.getLastName().compareTo(o2.getLastName());
-        }
-    };
-
-    Comparator<Student> byAge = new Comparator<Student>() {
-        @Override
-        public int compare(Student o1, Student o2) {
-            if (o1 == null && o2 == null) {
-                return 0;
-            }
-            if (o1 == null) {
-                return 1;
-            }
-            if (o2 == null) {
-                return -1;
-            }
-            return Integer.compare(o2.getAge(), o1.getAge());
-        }
-    };
-
-    Comparator<Student> byGrade = new Comparator<Student>() {
-        @Override
-        public int compare(Student o1, Student o2) {
-            if (o1 == null && o2 == null) {
-                return 0;
-            }
-            if (o1 == null) {
-                return 1;
-            }
-            if (o2 == null) {
-                return -1;
-            }
-            return Integer.compare(o2.getGrade(), o1.getGrade());
-        }
-    };
+    public int count() {
+        return this.students.size();
+    }
 
     public void sortByLastName() {
-        Arrays.sort(students, byLastName);
+        this.students.sort((o1, o2) -> o1.getLastName().compareTo(o2.getLastName()));
     }
 
     public void sortByAge() {
-        Arrays.sort(students, byAge);
+        this.students.sort((o1, o2) -> o1.getAge() - o2.getAge());
     }
 
     public void sortByGrade() {
-        Arrays.sort(students, byGrade);
+        this.students.sort((o1, o2) -> o1.getGrade() - o2.getGrade());
     }
 
     @Override
-    public Student[] militaryAgeMan() {
-        Student[] military = new Student[10];
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] != null && students[i].getGender().equals("Male") && students[i].getAge() >= 18) {
-                military[i] = students[i];
+    public List<Student> militaryAgeMan() {
+        List<Student> military = new ArrayList<>();
+        for (Student s : students) {
+            if (s.getGender().equals("Male") && s.getAge() > 18) {
+                military.add(s);
             }
         }
         return military;
@@ -145,7 +81,7 @@ public class Group implements RecruitmentOffice {
             for (Student student : students) {
                 if (student != null) {
                     writer.println(student.getFirstName() + "," + student.getLastName() + "," + student.getAge() + ","
-                    + student.getGender() + "," + student.getGrade());
+                            + student.getGender() + "," + student.getGrade());
                 }
             }
         } catch (IOException e) {

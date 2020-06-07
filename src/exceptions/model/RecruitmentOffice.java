@@ -1,5 +1,7 @@
 package exceptions.model;
 
+import java.util.List;
+
 public interface RecruitmentOffice {
-    public Student[] militaryAgeMan();
+    public List<Student> militaryAgeMan();
 }

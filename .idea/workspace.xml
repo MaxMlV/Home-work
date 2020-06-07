@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Max.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionsLecture/duplicateLetters/Scientist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectionsLecture/theBigBangClones/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/objectLecture/blackList/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/objectLecture/blackList/Stack.class" afterDir="false" />
-    </list>
+    <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,19 +49,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionsLecture.duplicateLetters.Main" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collectionsLecture.duplicateLetters.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collectionsLecture.theBigBangClones.Main" />
       <module name="HomeWork" />
@@ -113,6 +94,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="collectionsLecture.tenMinusTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collectionsLecture.duplicateLetters.Main" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collectionsLecture.theBigBangClones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

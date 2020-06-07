@@ -1,4 +1,4 @@
-package collectionsLecture.duplicateLetters;
+package collectionsLecture.theBigBangClones;
 
 public class Scientist {
     private String name;

@@ -1,7 +1,5 @@
 package collectionsLecture.theBigBangClones;
 
-import collectionsLecture.duplicateLetters.Scientist;
-
 import java.util.ArrayDeque;
 
 public class Main {

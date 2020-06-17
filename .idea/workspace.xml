@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e7d334-ea6c-415c-bc8f-c736a6e5100e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hashMapLecture/intarectiveTranslator/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashMapLecture/intarectiveTranslator/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashMapLecture/intarectiveTranslator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashMapLecture/practice/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashMapLecture/practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashMapLecture/practice/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashMapLecture/practice/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashMapLecture/translator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/linkFinder/LinkBucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/linkFinder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/practice/InternetAddressCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/systemMemory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/systemMemory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/systemMemory/MassageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/collectionsLecture/duplicateLetters/Scientist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/collectionsLecture/theBigBangClones/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/collectionsLecture/theBigBangClones/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/hashMapLecture/intarectiveTranslator/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeWork/hashMapLecture/intarectiveTranslator/Console.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeWork/hashMapLecture/practice/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashMapLecture/practice/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashMapLecture/practice/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashMapLecture/practice/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashMapLecture/practice/Worker.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,39 +63,13 @@
       <recent name="objectLecture.groupData" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashMapLecture.practice.Main" />
+      <option name="MAIN_CLASS_NAME" value="network.linkFinder.Main" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashMapLecture.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionsLecture.theBigBangClones.Main" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collectionsLecture.theBigBangClones.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashMapLecture.translator.Main" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashMapLecture.translator.*" />
+          <option name="PATTERN" value="network.linkFinder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objectLecture.blackList.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.Main" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="objectLecture.blackList.*" />
+          <option name="PATTERN" value="network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +104,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collectionsLecture.duplicateLetters.Main" />
+      <option name="MAIN_CLASS_NAME" value="network.practice.Main" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collectionsLecture.theBigBangClones.*" />
+          <option name="PATTERN" value="network.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.systemMemory.Main" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.systemMemory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,10 +186,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="512" y="255" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1536.824@0.40.1536.824" timestamp="1590924381207" />
-    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1591903004835">
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser" timestamp="1592257761646">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1591903004835" />
+    <state x="574" y="168" key="#com.intellij.ide.util.MemberChooser/0.40.1536.824@0.40.1536.824" timestamp="1592257761646" />
     <state x="570" y="283" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1587805248650">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -224,38 +214,38 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1587226400065" />
-    <state width="1493" height="475" key="GridCell.Tab.0.bottom" timestamp="1591902139071">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1592395998197">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="475" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1591902139071" />
-    <state width="1493" height="475" key="GridCell.Tab.0.center" timestamp="1591902139071">
+    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1592395998197" />
+    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1592395998196">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="475" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1591902139071" />
-    <state width="1493" height="475" key="GridCell.Tab.0.left" timestamp="1591902139070">
+    <state width="1493" height="200" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1592395998196" />
+    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1592395998196">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="475" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1591902139070" />
-    <state width="1493" height="475" key="GridCell.Tab.0.right" timestamp="1591902139071">
+    <state width="1493" height="200" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1592395998196" />
+    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1592395998196">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="475" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1591902139071" />
-    <state width="1493" height="296" key="GridCell.Tab.1.bottom" timestamp="1591537767660">
+    <state width="1493" height="200" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1592395998196" />
+    <state width="1493" height="296" key="GridCell.Tab.1.bottom" timestamp="1592395526255">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1591537767660" />
-    <state width="1493" height="296" key="GridCell.Tab.1.center" timestamp="1591537767659">
+    <state width="1493" height="296" key="GridCell.Tab.1.bottom/0.40.1536.824@0.40.1536.824" timestamp="1592395526255" />
+    <state width="1493" height="296" key="GridCell.Tab.1.center" timestamp="1592395526255">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1591537767659" />
-    <state width="1493" height="296" key="GridCell.Tab.1.left" timestamp="1591537767659">
+    <state width="1493" height="296" key="GridCell.Tab.1.center/0.40.1536.824@0.40.1536.824" timestamp="1592395526255" />
+    <state width="1493" height="296" key="GridCell.Tab.1.left" timestamp="1592395526255">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1591537767659" />
-    <state width="1493" height="296" key="GridCell.Tab.1.right" timestamp="1591537767659">
+    <state width="1493" height="296" key="GridCell.Tab.1.left/0.40.1536.824@0.40.1536.824" timestamp="1592395526255" />
+    <state width="1493" height="296" key="GridCell.Tab.1.right" timestamp="1592395526255">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state width="1493" height="296" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1591537767659" />
+    <state width="1493" height="296" key="GridCell.Tab.1.right/0.40.1536.824@0.40.1536.824" timestamp="1592395526255" />
     <state x="62" y="40" key="SettingsEditor" timestamp="1588248483545">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -292,10 +282,10 @@
       <screen x="0" y="40" width="1536" height="824" />
     </state>
     <state x="425" y="207" key="run.anything.popup/0.40.1536.824@0.40.1536.824" timestamp="1587216633999" />
-    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup" timestamp="1589613342781">
+    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup" timestamp="1592133598638">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
-    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1589613342781" />
+    <state x="224" y="132" width="1173" height="678" key="search.everywhere.popup/0.40.1536.824@0.40.1536.824" timestamp="1592133598638" />
     <state x="491" y="364" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588151023531">
       <screen x="0" y="40" width="1536" height="824" />
     </state>
@@ -366,6 +356,11 @@
           <url>file://$PROJECT_DIR$/src/collectionsLecture/duplicateLetters/Main.java</url>
           <line>32</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/network/linkFinder/LinkBucket.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
